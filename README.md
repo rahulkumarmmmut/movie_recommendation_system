@@ -17,12 +17,12 @@ To get a local copy up and running, follow these steps:
 3. Git LFS (Large File Storage)
 
 ### Installation: 
-1. Clone the repository:
+1. **Clone the repository:**
 ```bash
 git clone https://github.com/rahulkumarmmmut/movie_recommendation_system.git
 cd movie_recommendation_system
 ```
-2. Install the required packages:
+2. **Install the required packages:**
 ```bash
 pip install -r requirements.txt
 ```
@@ -33,7 +33,7 @@ After generating those .pkl files, paste them in your project folder.
 
 4. **Update API Key:**
 Make sure to update your TMDB API key in the fetch_poster function in the app.py file.
-5. Run the application:
+5. **Run the application:**
 ```bash
 streamlit run app.py
 ```
