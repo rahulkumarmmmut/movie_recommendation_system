@@ -8,7 +8,7 @@ def fetch_poster(movie_id):
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?language=en-US"
     headers = {
         "accept": "application/json",
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYTI4NDQ3NWFlMmI4YjJkZmE3ZWE3ZTQ4MDI0NTY2MCIsIm5iZiI6MTcyMjQ0ODIyNy4xNzA4NDcsInN1YiI6IjY2YWE3N2Y5ZGRiNzQ5ZGFkOGJkMGM2NCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.tewpJRjgyw4zbpxsPI44z0_f7_c99dJ9fP8NsA7Yeis"
+        "Authorization": "<ENTER YOUR AUTH TOKEN>"
     }
     response = requests.get(url, headers=headers)
     data = response.json()
