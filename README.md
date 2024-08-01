@@ -26,7 +26,14 @@ cd movie_recommendation_system
 ```bash
 pip install -r requirements.txt
 ```
-3. Run the application:
+3. **Generate Model Files:**
+The .pkl files in this project are specific to my model. You need to use the dataset to extract your own .pkl files, which you can generate by executing the last few steps in the model development part of the Jupyter notebook.
+Run the model development steps in your local environment to generate movies.pkl, movie_dict.pkl, and similarity.pkl.
+After generating those .pkl files, paste them in your project folder.
+
+4. **Update API Key:**
+Make sure to update your TMDB API key in the fetch_poster function in the app.py file.
+5. Run the application:
 ```bash
 streamlit run app.py
 ```
